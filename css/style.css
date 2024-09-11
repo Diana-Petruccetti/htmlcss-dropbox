@@ -107,5 +107,20 @@ img {
 /* end-region flex */
 
 /* region header */
+header div {
+    padding: 0.5rem;
+}
 
+.logo {
+
+}
+
+.left-menu {
+
+}
+
+.right-menu {
+display: flex;
+justify-content: flex-end;
+}
 /* end-region header */
