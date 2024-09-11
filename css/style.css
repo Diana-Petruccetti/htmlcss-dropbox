@@ -104,11 +104,20 @@ img {
 .justify-between {
     justify-content:space-between;
 }
+
+.align-center{
+    align-items: center;
+}
 /* end-region flex */
 
 /* region header */
-header div {
-    padding: 0.5rem;
+header {
+    color: white;
+}
+
+header nav {
+    padding: 1rem;
+    width: 100%;
 }
 
 .logo {
@@ -116,11 +125,14 @@ header div {
 }
 
 .left-menu {
-
+    a {
+        margin-left: 1rem;
+    }
 }
 
 .right-menu {
-display: flex;
-justify-content: flex-end;
+    a {
+        margin-right: 1rem;
+    }
 }
 /* end-region header */
