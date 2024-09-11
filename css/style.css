@@ -13,6 +13,11 @@ body {
 img {
     max-width: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: var(--box-dark);
+}
 /* end-region common */
 
 /* region debug */
@@ -22,11 +27,17 @@ img {
 
 .debug [class^="col-"] {
     min-height: 300px;
-    background-color: blue;
+    background-color: lightblue;
 }
 /* end-region debug */
 
 /* region utility */
+:root {
+    --box-light: #ffffff;
+    --box-dark: #000000;
+    --box-buttons: #0061ff;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -112,7 +123,7 @@ img {
 
 /* region header */
 header {
-    color: white;
+    color: var(--box-light);
 }
 
 header nav {
@@ -121,18 +132,24 @@ header nav {
 }
 
 .logo {
-
 }
 
 .left-menu {
     a {
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 }
 
 .right-menu {
     a {
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
+}
+
+a>span {
+    padding: 0.5rem 1rem;
+    color: var(--box-light);
+    background-color: var(--box-buttons);
+    margin-left: -20px;
 }
 /* end-region header */
