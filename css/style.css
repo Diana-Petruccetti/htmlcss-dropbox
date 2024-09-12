@@ -238,5 +238,11 @@ main {
         margin-right: 0.5rem;
     }
 }
+
+/* first col */
+.little-plans-icon{
+    align-content: center;
+}
+/* end-first col */
 /* end-plans section */
 /* end-region main */
