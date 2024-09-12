@@ -27,7 +27,7 @@ a {
 
 .debug [class^="col-"] {
     min-height: 300px;
-    background-color: lightblue;
+    background-color: rgb(218, 228, 79);
 }
 /* end-region debug */
 
@@ -36,6 +36,7 @@ a {
     --box-light: #ffffff;
     --box-dark: #000000;
     --box-buttons: #0061ff;
+    --box-background: #b4d0e7;
 }
 
 .container {
@@ -151,5 +152,9 @@ a>span {
     color: var(--box-light);
     background-color: var(--box-buttons);
     margin-left: -20px;
+}
+
+a>span:hover {
+    var(--box-background);
 }
 /* end-region header */
