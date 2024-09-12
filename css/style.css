@@ -21,11 +21,11 @@ a {
 /* end-region common */
 
 /* region debug */
-.debug {
+.debug * {
     border: 1px dashed;
 }
 
-.debug [class^="col-"] {
+.debug [class^="col"] {
     min-height: 300px;
     background-color: rgb(218, 228, 79);
 }
@@ -56,7 +56,7 @@ a {
 }
 
 [class^="col-"] {
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .col-1 {
@@ -155,6 +155,36 @@ a>span {
 }
 
 a>span:hover {
-    var(--box-background);
+    background-color: (--box-background);
 }
 /* end-region header */
+
+/* region main */
+[class^="col"] {
+    margin: 0.rem;
+}
+
+a:hover {
+    background-color: (--box-background);
+}
+
+/* jumbotron section */
+.jumbotron {
+    background-color: var(--box-background);
+}
+
+#title-jumbotron {
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+#jumbo-left {
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+}
+
+#arrow {
+    font-size: 3rem;
+}
+/* end-region main */
