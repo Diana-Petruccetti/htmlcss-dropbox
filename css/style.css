@@ -174,17 +174,25 @@ a:hover {
 }
 
 #title-jumbotron {
-    font-size: 5rem;
+    font-size: 6.5rem;
+    line-height: 9rem;
     padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 #jumbo-left {
     display: flex;
     flex-direction: column;
-    align-content:space-between;
+    font-size: 1.5rem;
+}
+
+#jumbo-left>*:not(:last-child) {
+        padding-bottom: 2rem;
 }
 
 #arrow {
     font-size: 3rem;
+    padding-top: 3rem;
 }
 /* end-region main */
