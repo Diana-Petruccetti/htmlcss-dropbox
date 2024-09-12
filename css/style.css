@@ -18,6 +18,16 @@ a {
     text-decoration: none;
     color: var(--box-dark);
 }
+
+.buttons {
+    padding: 0.5rem 1rem;
+    color: var(--box-light);
+    background-color: var(--box-buttons);
+}
+
+.buttons:hover {
+    background-color: var(--box-light-button);
+}
 /* end-region common */
 
 /* region debug */
@@ -203,4 +213,10 @@ a:hover {
     font-size: 3rem;
     padding-top: 3rem;
 }
+/* end-jumbotron section */
+/* plans section */
+#plans-title {
+    font-size: 3rem;
+}
+/* end-plans section */
 /* end-region main */

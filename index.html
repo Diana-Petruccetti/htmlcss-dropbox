@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="debu">
+<body class="debug">
     <header class="d.flex">
         <!-- menu -->
         <nav class="d-flex align-center justify-between">
@@ -59,7 +59,9 @@
                         <div>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis at deleniti impedit vitae delectus voluptates quae culpa corrupti fugit vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti praesentium non nulla, ipsum facilis dolorum beatae voluptatem aperiam facere eum?
                         </div>
-                            <a href="">Inizia la tua prova gratuita</a>
+                        <div>
+                            <a class="buttons" href="">Inizia la tua prova gratuita</a>
+                        </div>
                         <div>Annulla in qualsiasi momento</div>
                         <i id="arrow" class="fa-solid fa-arrow-down"></i>
                     </div>
@@ -75,9 +77,13 @@
          <div class="section plans">
             <div class="container-s">
                 <!-- title plans -->
-                <h1>
+                <h1 id="plans-title">
                     Trova il piano business che fa per te
                 </h1>
+                <fieldset>
+                    <input type="radio" id="monthly" name="billing" value="monthly" checked><lable>Fatturazione mensile</lable>
+                    <input type="radio" id="annual" name="billing" value="annual"><lable>Fatturazione annuale</lable>
+                </fieldset>
                 <!-- content plans -->
                 <div class="row">
                     <!-- left column -->
