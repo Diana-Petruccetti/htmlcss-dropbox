@@ -46,6 +46,7 @@ a {
 :root {
     --box-light: #ffffff;
     --box-dark: #000000;
+    --box-grey: #b2babe;
     --box-buttons: #0061ff;
     --box-light-button: #3381ff;
     --box-background: #b4d0e7;
@@ -117,6 +118,10 @@ a {
 
 .col-12 {
     width: 100%;
+}
+
+.grey {
+    color: var(--box-grey);
 }
 /* end-region utility */
 
@@ -205,7 +210,7 @@ main {
 }
 
 #jumbo-left>*:not(:last-child) {
-        padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 #col-jumbo-right {
@@ -239,9 +244,54 @@ main {
     }
 }
 
+.border{
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--box-grey);
+    padding: 10px;
+}
 /* first col */
 .little-plans-icon{
-    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.offer>* {
+    padding-top: 1rem;
+}
+
+.info>*{
+    padding-bottom: 2rem;
+}
+
+.info>div:first-child{
+    padding-top: 4rem;
+}
+
+.buy-now {
+    text-decoration: underline;
+    color: var(--box-buttons);
+}
+
+.hr {
+    margin: 30px 0px;
+    width: 30%;
+}
+
+.style-none-ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 2rem;
+}
+
+.check {
+    color: var(--box-buttons);
+}
+
+#infoh4 {
+    margin-bottom: 1rem;
 }
 /* end-first col */
 /* end-plans section */
