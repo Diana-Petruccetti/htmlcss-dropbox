@@ -36,6 +36,7 @@ a {
     --box-light: #ffffff;
     --box-dark: #000000;
     --box-buttons: #0061ff;
+    --box-light-button: #3381ff;
     --box-background: #b4d0e7;
 }
 
@@ -132,9 +133,6 @@ header nav {
     width: 100%;
 }
 
-.logo {
-}
-
 .left-menu {
     a {
         margin-left: 2rem;
@@ -147,15 +145,15 @@ header nav {
     }
 }
 
-a>span {
+a#start {
     padding: 0.5rem 1rem;
     color: var(--box-light);
     background-color: var(--box-buttons);
     margin-left: -20px;
 }
 
-a>span:hover {
-    background-color: (--box-background);
+a#start:hover {
+    background-color: var(--box-light-button);
 }
 /* end-region header */
 
@@ -171,13 +169,14 @@ a:hover {
 /* jumbotron section */
 .jumbotron {
     background-color: var(--box-background);
+    margin-bottom: 10rem;
 }
 
 #title-jumbotron {
     font-size: 6.5rem;
     line-height: 9rem;
     padding: 1rem;
-    margin-top: 4rem;
+    padding-top: 4rem;
     margin-bottom: 2rem;
 }
 
@@ -189,6 +188,15 @@ a:hover {
 
 #jumbo-left>*:not(:last-child) {
         padding-bottom: 2rem;
+}
+
+#col-jumbo-right {
+    position: relative;
+}
+
+#jumbo-right {
+    position: absolute;
+    bottom: -5rem;
 }
 
 #arrow {
