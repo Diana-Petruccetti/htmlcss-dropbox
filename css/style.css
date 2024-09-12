@@ -8,6 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     min-width:1200px;
+    background-color: var(--box-light);
 }
 
 img {
@@ -135,7 +136,10 @@ a {
 
 /* region header */
 header {
-    color: var(--box-light);
+    background-color: var(--box-light);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 header nav {
@@ -176,6 +180,10 @@ a:hover {
     background-color: (--box-background);
 }
 
+main {
+    padding-top: 3rem;
+}
+
 /* jumbotron section */
 .jumbotron {
     background-color: var(--box-background);
@@ -186,7 +194,7 @@ a:hover {
     font-size: 6.5rem;
     line-height: 9rem;
     padding: 1rem;
-    padding-top: 4rem;
+    padding-top: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -217,6 +225,18 @@ a:hover {
 /* plans section */
 #plans-title {
     font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+#radio {
+    margin-bottom: 3rem;
+    #monthly{
+        margin-right: 0.5rem;
+    }
+    #annual{
+        margin-left: 2rem;
+        margin-right: 0.5rem;
+    }
 }
 /* end-plans section */
 /* end-region main */
