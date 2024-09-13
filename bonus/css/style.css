@@ -318,3 +318,12 @@ li {
 /* end-last col */
 /* end-plans section */
 /* end-region main */
+/* region footer */
+/* end-region footer */
+
+/* region media query */
+@media screen and (min-width: 320px) {
+    header {
+        max-width: 320px;
+    }
+}
