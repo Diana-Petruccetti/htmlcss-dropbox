@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropbox</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="debu">
+    <header class="d.flex">
+        <!-- menu -->
+        <nav class="d-flex align-center justify-between">
+            <div class="d-flex align-center">
+                <!-- left menu -->
+                <img class="logo" src="./img/logo-small.png" alt="logo dropbox">
+                <div class="d-flex left-menu">
+                    <a href="">Perchè Dropbox</a>
+                    <a href="">Funzioni</a>
+                    <a href="">Piani e Prezzi</a>
+                </div>
+            </div>
+            <!-- right menu -->
+            <div class="d-flex align-center">
+                <div class="d-flex right-menu">
+                    <a href="">Supporto</a>
+                    <a href="">Contatta l'ufficio vendite</a>
+                    <a href="">Accedi</a>
+                </div>
+                <!-- menu button -->
+                <a id="start" href="">Inizia</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- section jumbotron -->
+        <div class="jumbotron">
+            <div class="container">
+                <!-- title jumbotron -->
+                <h1 id="title-jumbotron">
+                    <strong>Tutto ciò che ti serve per il<br>
+                        lavoro, in un unico posto</strong>
+                </h1>
+                <!-- content jumbotron -->
+                <div class="row">
+                    <!-- jumbotron left -->
+                    <div id="jumbo-left" class="col-4">
+                        <div>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis at deleniti impedit vitae delectus voluptates quae culpa corrupti fugit vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti praesentium non nulla, ipsum facilis dolorum beatae voluptatem aperiam facere eum?
+                        </div>
+                        <div>
+                            <a class="buttons" href="">Inizia la tua prova gratuita</a>
+                        </div>
+                        <div>Annulla in qualsiasi momento</div>
+                        <i id="arrow" class="fa-solid fa-arrow-down"></i>
+                    </div>
+                    <!-- jumbotron right -->
+                    <div id="col-jumbo-right" class="col-8">
+                        <img id="jumbo-right" src="./img/jumbo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end-section jumbotron -->
+        <!-- section plans -->
+         <div class="section plans">
+            <div class="container-s">
+                <!-- title plans -->
+                <h1 id="plans-title">
+                    Trova il piano business che fa per te
+                </h1>
+                <div id="radio">
+                    <input type="radio" id="monthly" name="billing" value="monthly" checked><lable>Fatturazione mensile</lable>
+                    <input type="radio" id="annual" name="billing" value="annual"><lable>Fatturazione annuale</lable>
+                </div>
+                <!-- content plans -->
+                <div class="row">
+
+                    <!-- left column -->
+                    <div class="col-4">
+                        <!-- category -->
+                        <div class="little-plans-icon border">
+                            <div>
+                                <i class="fa-solid fa-user"></i> Singolo
+                            </div>
+                        </div>
+                        <!-- content -->
+                        <div class="column-plans border">
+                            <div class="offer">
+                                <!-- offer -->
+                                <h2>Professional</h2>
+                                <h5>€ 12.00</h5>
+                                <div class="grey">/mese</div>
+                            </div>
+                            <div class="info">
+                                <!-- info -->
+                                <div>
+                                    <i class="fa-solid fa-user"></i>
+                                    <strong>1</strong> utente
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <strong>5 TB</strong> di spazio di archiviazione sicuro
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    Funzioni di produttività premium lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, eum.
+                                </div>
+                                <div>
+                                    <a class="buttons" href="">Prova gratis per 30 giorni</a>
+                                </div>
+                                <div>
+                                    Oppure <a class="buy-now" href="">acquista ora</a>
+                                </div>
+                                <div>
+                                    <hr class="hr">
+                                </div>
+                                <div>
+                                    <h4 id="infoh4">
+                                        Punti Salienti del piano
+                                    </h4>
+                                </div>
+                                <div>    
+                                    <div>
+                                        <ul class="style-none-ul">
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end-info -->
+                        </div>
+                    </div>
+                    <!-- end-left column -->
+
+                    <!-- middle column -->
+                    <div class="col-4 col-plans">
+                        <!-- category -->
+                        <div class="little-plans-icon border">
+                            <div>
+                                <i class="fa-solid fa-people-group"></i> Team
+                            </div>
+                        </div>
+                        <!-- content -->
+                        <div class="column-plans border">
+                            <div class="offer">
+                                <!-- offer -->
+                                <h2>Advanced</h2>
+                                <h5>€ 18.00</h5>
+                                <div class="grey">/utente/mese</div>
+                            </div>
+                            <div class="info">
+                                <!-- info -->
+                                <div>
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <strong>3</strong> o più utenti
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <strong>5 TB</strong> di spazio di archiviazione sicuro
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    Funzioni di produttività premium lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, eum.
+                                </div>
+                                <div>
+                                    <a class="buttons" href="">Prova gratis per 30 giorni</a>
+                                </div>
+                                <div>
+                                    Oppure <a class="buy-now" href="">acquista ora</a>
+                                </div>
+                                <div>
+                                    <hr class="hr">
+                                </div>
+                                <div>
+                                    <h4 id="infoh4">
+                                        Punti Salienti del piano
+                                    </h4>
+                                </div>
+                                <div>    
+                                    <div>
+                                        <ul class="style-none-ul">
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end-info -->
+                        </div>
+                    </div>
+                    <!-- end-middle column -->
+
+                    <!-- right column -->
+                    <div class="col-4">
+                        <!-- category -->
+                        <div class="little-plans-icon border">
+                            <div>
+                                <i class="fa-solid fa-building"></i> Azienda
+                            </div>
+                        </div>
+                        <!-- content -->
+                        <div class="column-plans border">
+                            <div class="offer">
+                                <!-- offer -->
+                                <h2>Enterprice</h2>
+                                <h5>Contattaci</h5>
+                                <div class="grey">-</div>
+                            </div>
+                            <div class="info">
+                                <!-- info -->
+                                <div>
+                                    <i class="fa-solid fa-user"></i>
+                                    <strong>10</strong> o più utenti
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <strong>5 TB</strong> di spazio di archiviazione sicuro
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    Funzioni di produttività premium lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, eum.
+                                </div>
+                                <div>
+                                    <a class="buttons" href="">Prova gratis per 30 giorni</a>
+                                </div>
+                                <div>
+                                    Oppure <a class="buy-now" href="">acquista ora</a>
+                                </div>
+                                <div>
+                                    <hr class="hr">
+                                </div>
+                                <div>
+                                    <h4 id="infoh4">
+                                        Punti Salienti del piano
+                                    </h4>
+                                </div>
+                                <div>    
+                                    <div>
+                                        <ul class="style-none-ul">
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                            <li><i class="check fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-right column -->
+
+                    <!-- last column -->
+                    <div id="last-column" class="col-12">
+                        <!-- category -->
+                        <div class="little-plans-icon border">
+                            <div>
+                                <i class="fa-solid fa-building"></i> Team
+                            </div>
+                        </div>
+                        <!-- content -->
+                        <div class="column-plans border">
+                            <div class="row">
+                                <div id="team-left" class="col-8 d-flex">
+                                    <h2>Enterprice</h2>
+                                    <h5>Contatta l'ufficio vendite per i prezzi</h5>
+                                    <div>
+                                        <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facere quod a incidunt sunt, architecto facilis.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="team-button" class="col-4 d-flex">
+                                    <div>
+                                        <a class="buttons" href="">Contatta l'ufficio vendite</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <!-- end-last column -->
+
+                </div>
+            </div>
+         </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
